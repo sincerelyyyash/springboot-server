@@ -1,0 +1,10 @@
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/pgdb
+    username: postgres
+    password: password
+    pool-size: 30
+
+spring:
+  flyway:
+    enabled: false
